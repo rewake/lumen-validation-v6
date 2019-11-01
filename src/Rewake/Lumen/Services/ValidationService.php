@@ -48,7 +48,7 @@ class ValidationService
 
                 // Get default validation messages & apply overrides from $rules::class
                 $messages = array_replace_recursive(
-                    app('translator')->trans('validation'),
+                    app('translator')->get('validation'),
                     $rules::messages()
                 );
 
