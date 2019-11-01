@@ -1,5 +1,7 @@
 # Enhanced Lumen Validation
 
+NOTE: This package is for Lumen v6. For Lumen v5 use https://github.com/rewake/lumen-validation
+
 This library provides enhancements to the `illuminate/validation` package which will validate objects and classes
 instead of arrays "only". The default Lumen validator has been wrapped so that all existing validation functionality
 *should* be available, however this is not yet fully tested. 
